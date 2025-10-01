@@ -96,8 +96,8 @@ button {
   padding: 12px 28px;
   font-size: 16px;
   font-weight: 600;
-  height:50px;
-  width:100px;
+  height:70px;
+  width:150px;
   
   background: linear-gradient(135deg, #ff6b6b, #4ecdc4); /* 从左上到右下的渐变 */
   color: white;
@@ -130,3 +130,9 @@ button:active {
         bottom: 290px;
         right: 60px;
 }
+
+.button-container {
+     display: grid;
+     grid-template-columns: repeat(2, auto);
+     gap: 20px;
+  }
